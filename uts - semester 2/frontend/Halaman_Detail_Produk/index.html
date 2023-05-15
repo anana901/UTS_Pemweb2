@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>E-Commerce</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            #p {
+              color : navy;
+              font-weight  : bold;
+            }
+            fieldset {
+                background-color: #eeeeee;
+                margin-left: 10%;
+                margin-right: 10%;
+
+            }
+         </style>
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">E-Commerce</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../Halaman_Daftar_Produk/index.html">Beranda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Pesanan</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            Admin
+                            <span class="badge bg-dark text-white ms-1 rounded-pill"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-info py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <img src="../../image/ecommerce.png" width="200px" height="200px" align="right" alt="">
+                <div class="text-left text-white">
+                    <h2>E-Commerce</h2>
+                    
+                    <p>E-Commerce adalah Website Toko online dimana<br>anda dapat membeli berbagai macam perlengkapan<br>atau barang secara online</p>
+                </div>
+            </div>
+        </header>
+        <!-- detail produk-->
+        <p id="p" align="center">DETAIL PRODUK</p>
+
+        <fieldset align="center">
+            <div>
+                <img align="left" src="../../image/ecommerce.png" width="80px" height="80px">
+            </div>
+            <div>
+                <label for="nama_produk"><b> Nama&nbsp;&nbsp;</b></label>
+                <label for="produk">AC</label><br><br>
+                <label for="fname"><b>Harga&nbsp;&nbsp;</b></label>
+                <label for="fname">4000000</label><br><br>
+                <label for="fname"><b>Stock&nbsp;&nbsp;</b></label>
+                <label for="fname">10</label><br><br>
+                <label for="fname"><b>Deskripsi&nbsp;&nbsp;</b></label>
+                <label for="fname">AC atau air conditioner merupakan perangkat elektronik yang berfungsi sebagai pendingin ruangan ini menjadi solusi jitu mengatasi udara yang panas.</label><br><br>
+                <button class="btn btn-outline-danger" onclick="history.back()">Go Back</button>
+                <a href="../Halaman_Form_Pemesanan_Produk/index.html"><button style="background-color: darkcyan;">Beli Produk</button></a>
+            </div>
+        </fieldset>  
+        <br><br>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">&copy; Copyright <b>E-Commerce All Right Reserved</b> <br>Muhammad Syaiful Bachri 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
